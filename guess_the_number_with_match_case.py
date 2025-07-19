@@ -4,7 +4,7 @@ play_again = "yes"
 
 while play_again.lower() == "yes":
     secret_number = random.randint(1, 5)
-    guess = int(input("Guess the secret number (between 1 and 10): "))
+    guess = int(input("Guess the secret number (between 1 and 5): "))
 
     match guess:
         case _ if guess == secret_number:
